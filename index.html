@@ -1,1 +1,120 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cssbanghang.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="website">
+        <div id="top">
+            <div id="top_left">
+                <a href="https://www.google.com/"><img src="images/google.jpg" width="20px" height="20px" /></a>
+                <a href="#"><img src="images/facebook.png" width="20px" height="20px" /></a>
+                <a href="#"><img src="images/gmail.png" width="20px" height="20px" /></a>
+            </div>
+            <div id="top_right">
+                <ul>
+                    <li><a href="#">Đăng nhập</a></li>
+                    <li>|</li>
+                    <li><a href="#">Đăng ký</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <!-- div thứ 1: hình logo -->
+            <div style="float:left; width:500px; height:100px;
+                margin:15px 0 0 50px; /*border:1px solid #000*/">
+                <img src="images/logo.jpg" width="500" height="100" />
+            </div>
+            <!-- div thứ 2: giỏ hành và thông tin giỏ hàng -->
+            <div id="shopcart" style="float:right; width:400px; height:67px; /*border:1px solid #000*/">
+                <img src="images/giohang.jpg" width="60" height="50" style="width: 90px;">
+                <div id="info_cart">
+                    <p>0 sản phẩm</p>
+                    <p>0 đ</p>
+                </div>
+            </div>
+            <!-- div thứ 3: số điện thoại và tìm kiếm -->
+            <div style="float:right; width:400px; height:60px; /*border:1px solid #000*/">
+                <div id="header_phone">
+                    <img src="images/dienthoai.jpg" style="width: 30px; float: left;"/>
+                    Hỗ Trợ: 07031235</div>
+                <div id="header_search">
+                    <!-- Tạo form tìm kiếm-->
+                    <form id="search_form">
+                        <input type="text" id="txtsearch" placeholder="Tìm kiếm" />
+                        <button type="submit" id="btnsearch">
+                            <img src="images/timkiem.jpg" width="30"/>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- PHẦN MENU -->
+        <div id="menu">
+            <ul>
+                <img width="40" height="30" style="padding: 0px 0px 10px 15px; top: 1px; width: 40px; height: 42px;" src="images/home.png">
+                <li style="border-left:1px dotted #999"><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Thời Trang Nam</a></li>
+                <li><a href="#">Thời Trang Nữ</a></li>
+                <li><a href="#">Hướng dẫn mua hàng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Trợ giúp</a></li>
+            </ul>
+        </div>
+        <!-- PHẦN MAIN-->
+        <div id="main">
+            <div id="main_left">
+                <div id="menu_left">
+                    <ul>
+                        <li><a href="#">Quần áo nữ</a>
+                            <ul class="submenu">
+                                <li><a href="#">Áo thun nữ</a>
+                                <li><a href="#">Áo sơ mi nữ</a>
+                                <li><a href="#">Áo khoát, vest nữ</a>
+                                <li><a href="#">Váy đầm</a>
+                                <li><a href="#">Quần jean</a>
+                            </ul>
+                        </li>
+                        <li><a href="#">Giày dép nữ</a>
+                            <ul class="submenu">
+                                <li><a href="#">Giày cao gót</a>
+                                <li><a href="#">Giày búp bê</a>
+                                <li><a href="#">Giày sandal nữ</a>
+                                <li><a href="#">Giày bata nữ</a>
+                                <li><a href="#">Giày thể thao nữ</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main_right">
+                <div id="products">
+                    <ul>
+                        <li>
+                            <div class="content">
+                                <a href="#">
+                                    <img src="images/aothun.jpg" width="210" height="280" />
+                                    <p class="title">Áo thun nam</p>
+                                </a>
+                                <p class="price">450.000đ</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <img src="images/somi.jpg" width="210" height="280" />
+                                <p class="title">Áo sơ mi nam</p>
+                                <p class="price">350.000đ</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
